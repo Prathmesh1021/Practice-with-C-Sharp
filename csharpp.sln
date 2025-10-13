@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpp", "csharpp\csharpp.csproj", "{6CE53B13-56D2-4147-B6FB-908CC93A3E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpp3", "..\csharpp3\csharpp3.csproj", "{13AE5AFA-166D-40D3-86D5-E687A9B41B91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE53B13-56D2-4147-B6FB-908CC93A3E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE53B13-56D2-4147-B6FB-908CC93A3E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE53B13-56D2-4147-B6FB-908CC93A3E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE53B13-56D2-4147-B6FB-908CC93A3E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AE5AFA-166D-40D3-86D5-E687A9B41B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AE5AFA-166D-40D3-86D5-E687A9B41B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AE5AFA-166D-40D3-86D5-E687A9B41B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AE5AFA-166D-40D3-86D5-E687A9B41B91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {355641D0-C966-451A-A1D6-B1296DFBFD9D}
+	EndGlobalSection
+EndGlobal
