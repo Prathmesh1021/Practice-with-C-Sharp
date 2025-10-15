@@ -7,8 +7,37 @@ namespace csharpp
     {
         static void Main()
 
-                
         {
+            { CollectionExample4 example4 = new CollectionExample4();
+                example4.StackFun();//Stack Example 
+
+                example4.QueueFub();//Queue Example 
+            }
+            
+
+            //Collection example3 : SortedList Example //non Generic and Generic 
+            {
+                Collection_Example3 Example3 = new Collection_Example3();
+                Example3.SortedListFun();//Non-Generic Collection   
+
+                Example3.SortedListFun1();//Generic Collection  
+            }   
+            
+            //Collection example2 : Hashtable Example 
+            {
+                CollectionExample2 Example2 = new CollectionExample2();
+                Example2.HasdhtableFun();
+            }   
+           
+
+            //Collection Example1 : ArrayList Example 
+                         { 
+            CollectionExample1 Example = new CollectionExample1();
+            Example.ArrayListfun();
+
+            }
+
+            
             /// File Handling Example6  // create, write, append, read file using short method and try catch    
             {
                 SHORT_METHOD_FileHadlingCWARD_Using_Exception_try_catch_Example6 obj12 = new SHORT_METHOD_FileHadlingCWARD_Using_Exception_try_catch_Example6();
@@ -207,7 +236,7 @@ namespace csharpp
 
             }
 
-
+            
         }
     }
 }
