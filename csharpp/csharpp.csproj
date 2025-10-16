@@ -5,7 +5,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>csharpp.Exception_handling_Throw_Example4</StartupObject>
+    <StartupObject>csharpp.Program</StartupObject>
   </PropertyGroup>
 
 </Project>

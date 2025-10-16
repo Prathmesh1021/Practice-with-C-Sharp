@@ -8,6 +8,20 @@ namespace csharpp
         static void Main()
 
         {
+            //Collection example6 : List Example //non Generic and Generic    
+            {
+                CollectionExample6 example6 = new CollectionExample6();
+                example6.HAshSet();            } 
+            /*
+            //Collection example5 : Dictionary Example //non Generic and Generic    
+            {
+
+                CollectionExample5 example5 = new CollectionExample5();
+             
+                example5.DictionaryFun();//Dictionary Example   
+            }
+            
+            //Collection example4 : Stack and Queue Example    
             { CollectionExample4 example4 = new CollectionExample4();
                 example4.StackFun();//Stack Example 
 
@@ -203,7 +217,7 @@ namespace csharpp
                 SECOND obj11 = new INTERFACE_implement_Example3();
                 obj11.fun1();
                 obj11.fun2();
-                obj11.fun3();*/
+                obj11.fun3();
             }
             { ///44.3 Method Overriding Example1  Method Overriding 
                 BILLOverriding obj12 = new BILLOverriding();
@@ -236,7 +250,7 @@ namespace csharpp
 
             }
 
-            
+            */
         }
     }
 }
