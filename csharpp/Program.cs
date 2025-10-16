@@ -1,33 +1,65 @@
 ﻿using Microsoft.VisualBasic;
 using System.ComponentModel.DataAnnotations;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace csharpp
 {
     internal class Program
     {
-        static void Main()
-
+        static void Main(string[] args)
         {
+
+            /*
+        //Event Example  
+            
+        public void TestEvent()
+        {
+            EventDemo myTest = new EventDemo();
+            myTest.MyEvent += MyTest_MyEvent; // add event
+            myTest.MyEvent -= MyTest_MyEvent; //remove event
+        }
+
+        private void MyTest_MyEvent()
+        {
+
+        }
+
+        public void myTest_MyEvent(object sender, EventArgs e)
+        {
+        }
+         public static void Main()
+          {
+         Program obj = new Program();
+          obj.TestEvent();
+
+          }
+        */
+
+
+
             //Collection example6 : List Example //non Generic and Generic    
             {
                 CollectionExample6 example6 = new CollectionExample6();
-                example6.HAshSet();            } 
-            /*
+                example6.HAshSet();
+            }
+
             //Collection example5 : Dictionary Example //non Generic and Generic    
             {
 
                 CollectionExample5 example5 = new CollectionExample5();
-             
+
                 example5.DictionaryFun();//Dictionary Example   
             }
-            
+
             //Collection example4 : Stack and Queue Example    
-            { CollectionExample4 example4 = new CollectionExample4();
+            {
+                CollectionExample4 example4 = new CollectionExample4();
                 example4.StackFun();//Stack Example 
 
                 example4.QueueFub();//Queue Example 
             }
-            
+
 
             //Collection example3 : SortedList Example //non Generic and Generic 
             {
@@ -35,23 +67,23 @@ namespace csharpp
                 Example3.SortedListFun();//Non-Generic Collection   
 
                 Example3.SortedListFun1();//Generic Collection  
-            }   
-            
+            }
+
             //Collection example2 : Hashtable Example 
             {
                 CollectionExample2 Example2 = new CollectionExample2();
                 Example2.HasdhtableFun();
-            }   
-           
+            }
+
 
             //Collection Example1 : ArrayList Example 
-                         { 
-            CollectionExample1 Example = new CollectionExample1();
-            Example.ArrayListfun();
+            {
+                CollectionExample1 Example = new CollectionExample1();
+                Example.ArrayListfun();
 
             }
 
-            
+
             /// File Handling Example6  // create, write, append, read file using short method and try catch    
             {
                 SHORT_METHOD_FileHadlingCWARD_Using_Exception_try_catch_Example6 obj12 = new SHORT_METHOD_FileHadlingCWARD_Using_Exception_try_catch_Example6();
@@ -87,8 +119,8 @@ namespace csharpp
             {
                 FileHandlingExample2_Append obj13 = new FileHandlingExample2_Append();
                 obj13.createfile();
-                 obj13.addContentOnFile();
-                 obj13.appendContentOnFile();
+                obj13.addContentOnFile();
+                obj13.appendContentOnFile();
             }
 
             /// File Handling Example3  // read and delete file   
@@ -209,15 +241,19 @@ namespace csharpp
             }
 
             {
-                ///43.3 interface object reference Example3  Interface   
-               /* FIRST obj10 = new INTERFACE_implement_Example3();
-                obj10.fun1();
-                obj10.fun2();
+                /* ///43.3 interface object reference Example3  Interface   
+                 FIRST obj10 = new INTERFACE_implement_Example3();
+                 obj10.fun1();
+                 obj10.fun2();
 
-                SECOND obj11 = new INTERFACE_implement_Example3();
-                obj11.fun1();
-                obj11.fun2();
-                obj11.fun3();
+                 SECOND obj11 = new INTERFACE_implement_Example3();
+                 obj11.fun1();
+                 obj11.fun2();
+                 obj11.fun3();
+
+             */
+
+
             }
             { ///44.3 Method Overriding Example1  Method Overriding 
                 BILLOverriding obj12 = new BILLOverriding();
@@ -233,7 +269,7 @@ namespace csharpp
                     num = Convert.ToInt32(Console.ReadLine());
 
                     if (num < 0)
-                    { 
+                    {
 
                         throw new Exception_handling_negative_number_exceptipn_Example5();
 
@@ -247,10 +283,7 @@ namespace csharpp
                     Console.WriteLine(ex.Message);
                 }
 
-
             }
-
-            */
         }
     }
 }
