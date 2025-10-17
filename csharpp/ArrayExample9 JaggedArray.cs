@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace csharpp
+{
+    internal class ArrayExample9_JaggedArray
+    {
+        public static void Main()
+        {
+            int[][] arr = new int[2][];
+            arr[0] = new int[5] { 1, 5, 3, 2, 7 };
+            arr[1] = new int[2] { 3, 6 };
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < arr[i].Length; j++)
+                {
+                    Console.Write(arr[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
